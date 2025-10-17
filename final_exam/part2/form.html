@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Change Password - Cung Nguyen</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">Shipping Address</div>
+      <div class="card-body">
+        <p>Cung Nguyen<br>,</p>
+        <button class="btn">Change Address</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Change Password</div>
+      <div class="card-body">
+        <form id="passwordForm">
+          <div class="input-group">
+            <input type="password" id="currentPassword" placeholder="Current Password" required />
+            <img src="../asset/images/eye-close.png" class="eye" onclick="togglePassword('currentPassword', this)" alt="toggle visibility" />
+          </div>
+
+          <div class="input-group">
+            <input type="password" id="newPassword" placeholder="New Password" required />
+            <img src="../asset/images/eye-close.png" class="eye" onclick="togglePassword('newPassword', this)" alt="toggle visibility" />
+          </div>
+
+          <div class="input-group">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+            <img src="../asset/images/eye-close.png" class="eye" onclick="togglePassword('confirmPassword', this)" alt="toggle visibility" />
+          </div>
+
+          <button type="submit" class="btn">Change Password</button>
+          <p id="message"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="form.js"></script>
+</body>
+</html>

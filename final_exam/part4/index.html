@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>OCU Visitor Relations | Campus Visits & Degree Programs</title>
+  <meta name="description" content="Find information about visiting Oklahoma City University, contact our campus visit manager Grace Helton, and explore degree programs that match your passion.">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip the content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#visit">Campus Visits</a></li>
+        <li><a href="#contact">Visitor Relations</a></li>
+        <li><a href="#programs">Programs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" class="site-grid" role="main">
+    <section class="left-column" aria-labelledby="profile-section">
+      <h1 id="profile-section">OCU Visitor Relations</h1>
+      <article class="profile-card" id="visit">
+        <img src="../asset/images/grace.jpg" alt="Grace Helton's portrait- Campus Visit and Events Manager" class="profile-photo" />
+        <div class="profile-info">
+          <h2>Grace Helton</h2>
+          <p class="role">Campus Visit and Events Manager</p>
+          <p>
+            <a href="mailto:glhelton@okcu.edu">glhelton@okcu.edu</a> ·
+            <a href="tel:4052085055">(405) 208-5055</a><br>
+            Territory: All informative events &amp; campus visits
+          </p>
+          <a href="#contact" class="btn" aria-label="Visit Grace Helton page">Visit Page</a>
+        </div>
+      </article>
+
+      <aside id="contact" class="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact OCU Visitor Relations</h2>
+        <p>
+          <a href="mailto:visitocu@okcu.edu">visitocu@okcu.edu</a><br>
+          800-633-7242, ext. 4<br>
+          <a href="tel:4052085345">405-208-5345</a>
+        </p>
+        <a href="#map" class="btn small" aria-label="View campus map and directions">View our map and get directions!</a>
+      </aside>
+    </section>
+
+    <aside class="right-column" aria-labelledby="testimonials">
+      <section id="testimonials" class="testimonial" aria-labelledby="testimonial-heading">
+        <h2 id="testimonial-heading">Student Experience</h2>
+        <img src="../asset/images/katie.jpg" alt="Katie Crim sitting in the OCU chapel interior" class="testimonial-photo" />
+        <blockquote>
+          “OCU taught me perseverance. Our professors teach us how to be adults with
+          training wheels. They're ready to help you.”
+        </blockquote>
+        <p class="author">Katie Crim<br><span>Flute Performance alumna</span></p>
+      </section>
+
+      <section id="programs" class="degree-finder" aria-labelledby="degree-heading">
+        <h2 id="degree-heading">Explore Programs</h2>
+        <p class="finder-intro">Find your passion:</p>
+        <form class="finder-form" role="search" aria-label="Search for academic programs">
+          <label for="search-program" class="sr-only">Search for a program</label>
+          <input id="search-program" type="search" placeholder="Search for a program" />
+          <button type="submit">GO!</button>
+        </form>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>© 2025 Oklahoma City University | <a href="#visit">Back to top</a></p>
+  </footer>
+</body>
+</html>
